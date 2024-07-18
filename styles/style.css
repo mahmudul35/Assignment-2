@@ -159,3 +159,39 @@ span {
   margin-top: 28px;
 }
 /* Header end */
+
+/* Main section start */
+main {
+  background: rgb(17, 17, 17);
+}
+main > section {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+/* change habit start*/
+
+.habit-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.habit-content {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.habit-content img {
+  border-radius: 50%;
+}
+.habit-content h3 {
+  color: rgb(255, 255, 255);
+  font-size: 1.12rem;
+  font-weight: 600;
+  margin: 20px 0 8px 0;
+}
+/* change habit end */
