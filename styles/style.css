@@ -95,12 +95,8 @@ ul > li {
   border-radius: 46px;
   background: rgb(230, 83, 60);
 }
-<<<<<<< HEAD
 .banner {
   
-=======
-.banner { 
->>>>>>> 478be1433b3488b1d725bac33108c3c22f5bd398
   padding: 0px 80px;
   max-width: 1320px;
   margin: 0 auto;
@@ -126,11 +122,8 @@ span {
 .image-container {
   width: 60%;
   display: flex;
-<<<<<<< HEAD
   /* align-items: center; */
   /* justify-content: flex-end; */
-=======
->>>>>>> 478be1433b3488b1d725bac33108c3c22f5bd398
   justify-content: center;
   position: relative;
   /* border: 1px solid red; */
@@ -188,7 +181,6 @@ span {
 }
 /* Header end */
 
-<<<<<<< HEAD
 /* Main section start */
 main {
   background: rgb(17, 17, 17);
@@ -350,5 +342,43 @@ select {
 }
 /* meet our team end */
 
-=======
->>>>>>> 478be1433b3488b1d725bac33108c3c22f5bd398
+/* footer start */
+footer {
+  background-color: rgb(34, 34, 34);
+}
+footer hr{
+  /* height: 2px; */
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 15px;
+  /* padding: 30px; */
+  /* margin-bottom: 30px; */
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 1440px; */
+  max-width: 1320px;
+  margin: 0 80px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.col-1 {
+  width: 40%;
+}
+
+.col-1 p {
+  margin-top: 20px;
+}
+.col-2 h2,
+.col-3 h2 {
+  color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+ol > li {
+  list-style: none;
+  margin-bottom: 15px;
+}
