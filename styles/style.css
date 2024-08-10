@@ -95,8 +95,12 @@ ul > li {
   border-radius: 46px;
   background: rgb(230, 83, 60);
 }
+<<<<<<< HEAD
 .banner {
   
+=======
+.banner { 
+>>>>>>> 478be1433b3488b1d725bac33108c3c22f5bd398
   padding: 0px 80px;
   max-width: 1320px;
   margin: 0 auto;
@@ -113,17 +117,20 @@ ul > li {
   font-size: 4.2rem;
   color: white;
   margin-bottom: 28px;
+  line-height: 70px;
 }
 span {
-  /* font-family: "Playwrite IN"; */
   font-family: "Miama";
   font-size: 4.2rem;
 }
 .image-container {
   width: 60%;
   display: flex;
+<<<<<<< HEAD
   /* align-items: center; */
   /* justify-content: flex-end; */
+=======
+>>>>>>> 478be1433b3488b1d725bac33108c3c22f5bd398
   justify-content: center;
   position: relative;
   /* border: 1px solid red; */
@@ -155,6 +162,10 @@ span {
   font-size: 24px;
   font-weight: 900;
 }
+#play-icon{
+  color: rgb(230, 83, 60);
+  transform: scale(2.5);
+}
 
 .video {
   position: absolute;
@@ -177,6 +188,7 @@ span {
 }
 /* Header end */
 
+<<<<<<< HEAD
 /* Main section start */
 main {
   background: rgb(17, 17, 17);
@@ -338,3 +350,5 @@ select {
 }
 /* meet our team end */
 
+=======
+>>>>>>> 478be1433b3488b1d725bac33108c3c22f5bd398
