@@ -95,6 +95,9 @@ ul > li {
   border-radius: 46px;
   background: rgb(230, 83, 60);
 }
+#menu{
+  display: none;
+}
 .banner {
   
   padding: 0px 80px;
@@ -351,9 +354,6 @@ footer hr{
   background-color: rgba(255, 255, 255, 0.5);
   margin-left: 80px;
   margin-right: 80px;
-  margin-bottom: 15px;
-  /* padding: 30px; */
-  /* margin-bottom: 30px; */
 }
 .footer-container {
   display: flex;
@@ -381,4 +381,87 @@ footer hr{
 ol > li {
   list-style: none;
   margin-bottom: 15px;
+}
+#copyright{
+  padding: 15px 0;
+}
+
+
+/* For small devices */
+@media screen and (max-width: 576px) {
+  /* Shared */
+  .section-title {
+    font-size: 2rem;
+  }
+
+  /* shared */
+  /* header start */
+  header {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  nav,.banner{
+    padding: 0 10px;
+  }
+  ul {
+    display: none;
+  }
+  #menu{
+    display: inline;
+    color: white;
+    transform: scale(1.5);
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner-content {
+    width: 100%;
+  }
+  .banner-content p {
+    width: 70%;
+  }
+  .banner-title {
+    width: 80%;
+    line-height: 40px;
+    font-size: 2.4rem;
+  }
+  .btn-container {
+    display: flex;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    padding: 10px;
+    width: 50%;
+    font-size: 1rem;
+  }
+  
+  .banner-image{
+    margin-left: 10px;
+  }
+ 
+  .image-container {
+    width: 100%;
+    /* justify-content: flex-start; */
+    margin-top: 50px;
+    position: relative;
+  }
+
+  .tutorial {
+    top: 260px;
+    left: 5px;
+    width: 150px;
+    height: 80px;
+  }
+  .video {
+    top: 50px;
+    right: -15px;
+    width: 156px;
+    height: 80px;
+  }
+  .video p {
+    font-size: 0.875rem;
+  }
+  /* header end */
+
 }
