@@ -212,6 +212,7 @@ main > section {
   padding:0 5px;
 }
 .habit-content img {
+  border: 3px solid gray;
   border-radius: 50%;
 }
 .habit-content h3 {
@@ -463,5 +464,21 @@ ol > li {
     font-size: 0.875rem;
   }
   /* header end */
+   /* habit section start */
+   .habit {
+    padding: 20px;
+  }
+
+  .habit-image-container {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .habit-content {
+    width: 60%;
+    margin-top: 30px;
+  }
+
+  /* habit section end */
 
 }
