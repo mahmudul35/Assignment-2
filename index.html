@@ -124,8 +124,7 @@
         <h1 class="section-title">BMI Calculator</h1>
         <p class="primary-text">
           We believe fitness should be accessible to everyone, everywhere,
-          regardless of income or <br />
-          access to a gym.
+          regardless of income or access to a gym.
         </p>
       </section>
       <!-- BMI section started -->
@@ -170,24 +169,32 @@
 
           <div class="form-container">
             <form action="">
-              <input type="text" placeholder="Height/cm" />
-              <input type="text" placeholder="Weight/kg" /> <br />
-              <br />
-              <input type="number" placeholder="Age" />
+              <div class="height">
+                <input type="text" placeholder="Height/cm" />
+                </div>
+
+              <div class="weight">
+                <input type="text" placeholder="Weight/kg" /> 
+              </div>
+              <div class="number">
+                <input type="number" placeholder="Age" /></div>
+              <div class="gender">
               <select name="" id="">
                 <option value="Sex">Sex</option>
                 <option value="">Male</option>
                 <option value="">Female</option>
               </select>
-              <br />
-              <br />
-              <select class="factor" name="" id="">
-                <option value="">Select an activity factor</option>
-              </select>
-              <br />
-              <br />
-              <button class="primary-btn">Calculate</button>
+              </div>
+              
+              <div class="activity-factor">
+                <select class="factor" name="" id="">
+                  <option value="">Select an activity factor</option>
+                </select>
+              </div>
+
             </form>
+            
+            <button class="primary-btn">Calculate</button>
           </div>
         </div>
       </div>
