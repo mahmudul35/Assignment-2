@@ -531,5 +531,32 @@ ol > li {
   }
   /* meet our team */
 
+   /* footer */
+   footer{
+    width: 100%;
+  }
+  .footer-container {
+    flex-direction: column;
+    margin-left: 30px;
+    width: 80%;
+  }
+  .col-1 {
+    width: 100%;
+  }
+  .col-1 p {
+    width: 100%;
+    text-align: justify;
+  }
+  .col-2 h2 {
+    margin-top: 20px;
+  }
+  footer hr{
+    /* height: 2px; */
+    width: 80%;
+    margin-left: 30px;
+   ;
+  }
+  /* footer */
+
 
 }
