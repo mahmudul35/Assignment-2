@@ -25,8 +25,9 @@
   text-align: center;
 }
 .secondary-btn {
+  width: 200px;
   margin: 0px 14px;
-  padding: 16px 40px;
+  padding: 16px 20px;
   font-size: 1.12rem;
   font-weight: 600;
   color: rgb(255, 255, 255);
@@ -37,9 +38,10 @@
 }
 
 .primary-btn {
+  width: 200px;
   background: rgb(230, 83, 60);
   border-radius: 42px;
-  padding: 16px 40px;
+  padding: 16px 20px;
   font-size: 1.12rem;
   font-weight: 600;
   color: rgb(255, 255, 255);
@@ -118,7 +120,7 @@ ul > li {
   margin-bottom: 28px;
   line-height: 70px;
 }
-span {
+#shape{
   font-family: "Miama";
   font-size: 4.2rem;
 }
@@ -384,6 +386,113 @@ form{
 }
 /* meet our team end */
 
+/* plan start */
+.our-plan{
+  /* background: rgb(34, 34, 34); */
+  margin-top: 50px;
+
+}
+.card-containner{
+  display: flex;
+  justify-content: center;
+ 
+  align-items: center;
+  gap: 15px;
+  margin-top: 50px;
+  padding: 30px 20px;
+}
+.card{
+  width: 25%;
+  height: 400px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  padding: 20px;
+}
+.card, h1{
+  line-height: 40px;
+  color: white;
+}
+#cost{
+  color: rgb(230, 83, 60);
+}
+#check{
+  color: rgb(230, 83, 60);
+}
+.item-container{
+  margin-top: 20px;
+}
+.item-container p{
+  line-height: 30px;
+}
+.join-btn{
+  
+  text-align: center;
+}
+.join-btn button{
+  width: 80%;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgb(230, 83, 60);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+  
+}
+/* plan end */
+
+/* client review */
+.client-card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 80px;
+}
+.client-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 400px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  padding: 20px;
+
+}
+.client-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  
+  border: 2px solid rgb(230, 83, 60);
+}
+.client-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.client-content h2 {
+  color: white;
+  margin: 6px 0;
+  
+}
+.client-content p {
+  color: white;
+  text-align: center;
+  margin: 6px 0;
+  
+}
+#Star{
+  color: gold;
+}
+/* client review end */
 /* footer start */
 footer {
   background-color: rgb(34, 34, 34);
@@ -457,7 +566,7 @@ ol > li {
     width: 100%;
   }
   .banner-content p {
-    width: 70%;
+    width: 80%;
   }
   .banner-title {
     width: 80%;
@@ -465,14 +574,26 @@ ol > li {
     font-size: 2.4rem;
   }
   .btn-container {
+    
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 2px solid red;
   }
 
-  .primary-btn,
+  .primary-btn
+    {
+      padding: 10px;
+      width: 50%;
+      font-size: 1rem;
+    }
+  
   .secondary-btn {
     padding: 10px;
     width: 50%;
     font-size: 1rem;
+    margin: 0 0 0 14px;
   }
   
   .banner-image{
