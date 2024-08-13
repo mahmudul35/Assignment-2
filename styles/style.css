@@ -25,10 +25,10 @@
   text-align: center;
 }
 .secondary-btn {
-  width: 200px;
-  margin: 0px 14px;
-  padding: 16px 20px;
-  font-size: 1.12rem;
+  /* width: 200px; */
+  /* margin: 0px 14px; */
+  padding: 10px 16px;
+  font-size: 1rem;
   font-weight: 600;
   color: rgb(255, 255, 255);
   border: 1px solid rgb(255, 255, 255);
@@ -38,11 +38,11 @@
 }
 
 .primary-btn {
-  width: 200px;
+  /* width: 200px; */
   background: rgb(230, 83, 60);
   border-radius: 42px;
-  padding: 16px 20px;
-  font-size: 1.12rem;
+  padding: 10px 16px;
+  font-size: 1rem;
   font-weight: 600;
   color: rgb(255, 255, 255);
   border: none;
@@ -153,6 +153,7 @@ ul > li {
   backdrop-filter: blur(20px);
   background: rgba(48, 48, 48, 0.54);
   padding: 10px;
+  cursor: pointer;
   /* padding: 20px 60px; */
 }
 .tutorial h3 {
@@ -177,12 +178,25 @@ ul > li {
   background: rgba(48, 48, 48, 0.54);
   padding: 10px;
   text-align: center;
+  cursor: pointer;
 }
 .video h1 {
   color: rgb(250, 250, 249);
 }
 .btn-container {
+  display: flex;
+  align-items: center;
   margin-top: 28px;
+}
+.join-button,.download-btn{
+  width: 220px;
+  margin: 10px;
+}
+#Join{
+  width: 100%;
+}
+#Download{
+  width: 100%;
 }
 /* Header end */
 
@@ -328,6 +342,7 @@ form{
                         "number gender"
                         "activity-factor activity-factor";
   gap: 10px;
+  margin-bottom: 10px;
 }
 .height{
   grid-area: height;
@@ -345,6 +360,9 @@ form{
   grid-area: activity-factor;
   margin-bottom: 10px;
   
+}
+.form-btn{
+  width: 50%;
 }
 /* bmi */
 
@@ -364,10 +382,12 @@ form{
 
 .meet-image {
   width: 100%;
+  height: 250px;
   position: relative;
 
   /* height: 300px; */
 }
+
 .meet-content {
   position: absolute;
   bottom: 20px;
@@ -425,12 +445,12 @@ form{
 .item-container p{
   line-height: 30px;
 }
-.join-btn{
+/* .join-btn{
   
   text-align: center;
-}
+} */
 .join-btn button{
-  width: 80%;
+  /* width: 80%; */
   padding: 10px 20px;
   border: none;
   outline: none;
@@ -554,7 +574,7 @@ ol > li {
   /* header start */
   header {
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 15px;
   }
   nav,.banner{
     padding: 0 10px;
@@ -578,19 +598,40 @@ ol > li {
   }
   .banner-title {
     width: 80%;
-    line-height: 40px;
+    line-height: 50px;
     font-size: 2.4rem;
   }
   .btn-container {
-    
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    justify-content: space-between;
     align-items: center;
-    
+    border: 1px solid red;
+    gap: 10px;
+   
   
   }
-
-  .primary-btn
+  .join-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 48%; */
+    /* border: 1px solid red; */
+    margin: 0px;
+    
+  }
+  /* .join-button button{
+    width: 50%;
+  } */
+  .download-btn{
+    /* width: 48%; */
+    /* border: 1px solid rgb(230, 83, 60); */
+    margin: 0px;
+    /* margin-bottom: 15px; */
+  }
+  /* .download-btn button{
+    width: 100%;
+  } */
+  /* .primary-btn
     {
       padding: 10px;
       width: 50%;
@@ -602,7 +643,7 @@ ol > li {
     width: 50%;
     font-size: 1rem;
     margin: 0 0 0 14px;
-  }
+  } */
   
   .banner-image{
     margin-left: 10px;
@@ -617,8 +658,8 @@ ol > li {
 
   .tutorial {
     top: 260px;
-    left: 5px;
-    width: 150px;
+    left: 2px;
+    width: 176px;
     height: 80px;
   }
   .video {
@@ -660,11 +701,15 @@ ol > li {
   .run-btn {
     width: 100%;
   }
+  .run-image{
+    width: 100%;
+  }
   .run-image img {
     width: 100%;
     height: 200px;
     border-radius: 20px;
     object-fit: cover;
+    
     
   }
   .primary-btn {
@@ -676,7 +721,7 @@ ol > li {
 .bmi {
   margin-bottom: 30px;
   text-align: left;
-  padding: 10px;
+  padding: 15px;
 }
 .bmi-chart{
   width: 100%;
@@ -707,11 +752,12 @@ input,select{
   width: 100%;
 }
 
-.primary-btn{
+/* .primary-btn{
   width: 50%;
-}
+} */
 /* bmi section */
    /* meet our team */
+   
    .meet-image-container {
     margin-top: 60px;
     margin-left: 10px;
@@ -738,11 +784,13 @@ input,select{
   .our-plan{
     /* background: rgb(34, 34, 34); */
     margin-top: 20px;
+    padding: 15px;
   
   }
   .card-containner{
     flex-direction: column;
     margin-top: 20px;
+    padding: 0px;
   }
   .card{
     width: 100%;
@@ -751,9 +799,12 @@ input,select{
   /* our plan end */
 
   /* client review */
+  .review{
+    padding: 15px;
+  }
   .client-card-container{
     flex-direction: column;
-    padding: 15px;
+    /* padding: 15px; */
     margin-top: 30px;
   }
   .client-card{
