@@ -661,6 +661,7 @@ ol > li {
     width: 100%;
   }
   .run-content h1{
+    width: 75%;
     line-height: 40px;
   }
   .run-image{
