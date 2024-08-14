@@ -123,6 +123,7 @@ ul > li {
 #shape{
   font-family: "Miama";
   font-size: 4.2rem;
+  font-weight: 200;
 }
 .image-container {
   width: 60%;
@@ -237,6 +238,7 @@ main > section {
   font-weight: 600;
   margin: 20px 0 8px 0;
 }
+
 /* change habit end */
 
 /* run extra mile start */
@@ -486,6 +488,9 @@ form{
   padding: 20px;
 
 }
+.client-card:hover{
+  transform: scale(1.02);
+}
 .client-img {
   width: 120px;
   height: 120px;
@@ -604,46 +609,25 @@ ol > li {
   .btn-container {
     /* display: flex; */
     justify-content: space-between;
-    align-items: center;
-    border: 1px solid red;
-    gap: 10px;
-   
+   align-items: center;
   
   }
   .join-button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* width: 48%; */
+   
+    width: 48%;
     /* border: 1px solid red; */
     margin: 0px;
     
   }
-  /* .join-button button{
-    width: 50%;
-  } */
-  .download-btn{
-    /* width: 48%; */
-    /* border: 1px solid rgb(230, 83, 60); */
-    margin: 0px;
-    /* margin-bottom: 15px; */
-  }
-  /* .download-btn button{
-    width: 100%;
-  } */
-  /* .primary-btn
-    {
-      padding: 10px;
-      width: 50%;
-      font-size: 1rem;
-    }
   
-  .secondary-btn {
-    padding: 10px;
-    width: 50%;
-    font-size: 1rem;
-    margin: 0 0 0 14px;
-  } */
+  .download-btn{
+    width: 48%;
+  
+    margin: 0px;
+    margin-bottom: 15px;
+    
+  }
+  
   
   .banner-image{
     margin-left: 10px;
